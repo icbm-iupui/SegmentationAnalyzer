@@ -18,17 +18,18 @@
 package segmentationanalyzer.metricprocessor;
 
 import java.util.ArrayList;
+import 
 import segmentationanalyzer.SegmentationAnalyzerModule;
 
 /**
  *
  * @author Seth
  */
-public interface MetricProcessor <T extends Number> extends SegmentationAnalyzerModule {
+public interface MetricProcessor extends SegmentationAnalyzerModule {
    
     
-   public abstract Number process(ArrayList al, ArrayList<T> values);
+   public Number process(ImagePlus truth, ImagePlus test);
    
-    
+    truth.
 }
 

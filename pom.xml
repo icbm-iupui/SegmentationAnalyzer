@@ -31,12 +31,12 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
     </parent>
 
     <groupId>icbm-iupui</groupId>
-    <artifactId>vtea</artifactId>
-    <version>1.0alpha2-SNAPSHOT</version>
+    <artifactId>SegmentationAnalyzer</artifactId>
+    <version>0.1-SNAPSHOT</version>
 
 
-    <name>VTEA master</name>
-    <description>Volumetric analysis</description>
+    <name>Segmantation Analyzer</name>
+    <description>Compare nD segmentation maps</description>
     
     <properties>
         <clearcl.version>0.3.6</clearcl.version>
@@ -47,29 +47,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
     </properties>
 
     <dependencies>
-        <dependency>
-            <groupId>com.github.lejon.T-SNE-Java</groupId>
-            <artifactId>tsne</artifactId>
-            <version>v2.5.0</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.haifengl/smile-netlib -->
-        <dependency>
-            <groupId>com.github.haifengl</groupId>
-            <artifactId>smile-netlib</artifactId>
-            <version>1.5.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.haifengl/smile-core -->
-        <dependency>
-            <groupId>com.github.haifengl</groupId>
-            <artifactId>smile-core</artifactId>
-            <version>1.5.1</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.github.haifengl/smile-plot -->
-        <dependency>
-            <groupId>com.github.haifengl</groupId>
-            <artifactId>smile-plot</artifactId>
-            <version>1.5.1</version>
-        </dependency>
+        
         <dependency>
             <groupId>net.imagej</groupId>
             <artifactId>ij</artifactId>
@@ -97,11 +75,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
             <artifactId>jcommon</artifactId>
             <version>1.0.21</version>
         </dependency>
-        <dependency>
-            <groupId>com.h2database</groupId>
-            <artifactId>h2</artifactId>
-            <version>1.4.198</version>
-        </dependency>
+        
         <dependency>
             <groupId>org.swinglabs</groupId>
             <artifactId>jxlayer</artifactId>
@@ -118,14 +92,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
             <artifactId>quickhull3d</artifactId>
             <version>1.0.0</version>
         </dependency>
-        <!--
-        <dependency>
-            <groupId>net.imglib2</groupId>
-            <artifactId>imglib2</artifactId>
-            <version>3.2.1</version>
-            <type>jar</type>
-        </dependency>
-        -->
+        
         <dependency>
             <groupId>net.imglib2</groupId>
             <artifactId>imglib2</artifactId>
